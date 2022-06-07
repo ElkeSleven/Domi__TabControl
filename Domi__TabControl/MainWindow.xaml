@@ -5,8 +5,95 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Domi__TabControl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+          Title="window in Tabs verdeeld" Height="450" Width="800">
+    
+    
+    
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="MaxWidth" Value="150"/>
+            <Setter Property="Margin" Value="0 5"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="MaxWidth" Value="150"/>
+            <Setter Property="Margin" Value="0 5"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="0 2"/>
+            <Setter Property="Foreground" Value="White"/>
+
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Hoofdmenu">
+                <MenuItem Header="Item1"></MenuItem>
+                <MenuItem Header="Item2">
+                    <MenuItem Header="Supmenu1"></MenuItem>
+                    <MenuItem Header="Supmenu2"></MenuItem>
+                    <MenuItem Header="Supmenu3"></MenuItem>
+                    <MenuItem Header="Supmenu4"></MenuItem>
+                    <MenuItem Header="Supmenu5">
+                        <MenuItem Header="supItem1"></MenuItem>
+                        <MenuItem Header="supItem2"></MenuItem>
+                        <MenuItem Header="supItem3"></MenuItem>
+                        <MenuItem Header="supItem4"></MenuItem>
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Afsuiten"></MenuItem>
+        </Menu>
+
+
+        <DockPanel DockPanel.Dock="Bottom" Background="#696969"  >
+            <Label Name="lbldayTime"  Margin="20 0 0 0"  />
+            <Label Content="DOMI - by Elke" DockPanel.Dock="Right"  FontWeight="DemiBold" FontSize="13" Margin="0 0 20 0" />
+            <Label Content="window in Tabs verdeeld" FontWeight="DemiBold" FontSize="15" HorizontalAlignment="Center" />
+        </DockPanel>
+
+        <StatusBar DockPanel.Dock="Bottom" Height="30" VerticalAlignment="Top">
+            <TextBlock Text=" Ready" FontStyle="Italic" FontSize="16"/>
+            <Image Source="Images/imagename.png" Margin="10,0,0,0"/>
+            <Image Source="Images/imagename.png" Margin="5,0,0,0"/>
+            <TextBlock x:Name="TextBlockDatumTijd" Text="Datum en tijd" Margin="400,0,0,0"/>
+        </StatusBar>
+
+
+
+
+        <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <TabItem Header="TabItem1">
+                <Grid Background="AliceBlue">
+                    <TextBlock Text="Dit is het eerste tabblad. Alle controls worden binnen het Grid ontworpen." />
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem2">
+                <Grid Background="CornflowerBlue">
+                    <TextBlock Text="Dit is het tweede tabblad. "/>
+                </Grid>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/imagename.png" Width="25" />
+                        <TextBlock Text=" Tabblad 3"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock Text="Dit is het derde tabblad."/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+       
+
+
+
+
+
+
+
+    </DockPanel>
 </Window>

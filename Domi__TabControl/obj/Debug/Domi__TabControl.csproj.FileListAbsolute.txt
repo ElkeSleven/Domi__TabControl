@@ -1,0 +1,16 @@
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\bin\Debug\Domi__TabControl.exe.config
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\bin\Debug\Domi__TabControl.exe
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\bin\Debug\Domi__TabControl.pdb
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.csproj.AssemblyReference.cache
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.csproj.SuggestedBindingRedirects.cache
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\MainWindow.g.cs
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\App.g.cs
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl_MarkupCompile.cache
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl_MarkupCompile.lref
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\MainWindow.baml
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.g.resources
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.Properties.Resources.resources
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.csproj.GenerateResource.cache
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.csproj.CoreCompileInputs.cache
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.exe
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi__TabControl\Domi__TabControl\obj\Debug\Domi__TabControl.pdb
